@@ -9,7 +9,7 @@ FILENAME = "data.txt"
 
 s1 = socket.create_connection(('localhost', D1_PORT))
 s2 = socket.create_connection(('localhost', D2_PORT))
-
+    
 #데이터 저장 함수 구현
 def saveData(data) :
     try:
