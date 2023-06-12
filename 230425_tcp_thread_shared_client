@@ -8,4 +8,4 @@ s.connect(('localhost', port))
 
 print(int(s.recv(BUFFSIZE).decode()))
 
-s.close() 
+s.close()  
